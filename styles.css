@@ -129,12 +129,13 @@ body > * {
 }
 
 
-.overlay{
+.overlay{ /*overlay box for images*/
   height:auto;
   display: flex;
   flex-direction:column;
   justify-content: center;
-  align-items: center;
+  align-items: left;
+  text-align:left;
   color:white;
   text-align:left;
   position: absolute;
@@ -183,6 +184,16 @@ body > * {
     text-decoration:none;
     color:gray;
     margin:5px;
+}
+
+.hp{
+  font-size:1.5em;
+  margin:0px;
+}
+
+.pp{
+  margin:0px;
+  padding:0px;
 }
 
 .navbar{
@@ -257,6 +268,13 @@ button{
 }
 
 button:hover{
+  color:rgb(199, 199, 199);
     /*background-color:rgb(12, 41, 159);*/
     box-shadow: 0px 5px 0px 0 rgb(0, 0, 0), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+
+.button-o{
+  margin:0px;
+  margin-top:.5em;
 }
