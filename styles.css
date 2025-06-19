@@ -132,7 +132,7 @@ body > * {
 .fxb-text-overlay-h {
   text-align:left;
     position: absolute;
-    bottom: 75px;
+    bottom: 125px;
     left: 50px;
     margin-bottom:5px;
     /*transform: translate(-50%, -50%);*/
@@ -140,20 +140,30 @@ body > * {
     font-size: 1.5em;
     font-weight: bold;
     text-shadow: 0 0 150px rgba(0, 0, 0, 0.998);
-    z-index: 2;
+    z-index: 3;
     pointer-events: none; /* Falls keine Interaktion gewünscht */
 }
 
 .fxb-text-overlay {
   text-align:left;
     position: absolute;
-    bottom: 50px;
-    left: 43px;
+    bottom: 100px;
+    left: 42px;
+    /*transform: translate(-50%, -50%);*/
+    color: rgb(255, 255, 255); 
+    text-shadow: 0 0 150px rgba(0, 0, 0, 0.998);
+    z-index: 3;
+    pointer-events: none; /* Falls keine Interaktion gewünscht */
+}
+
+.btn-img{
+    position: absolute;
+    bottom: 40px;
+    left: 35px;
     /*transform: translate(-50%, -50%);*/
     color: rgb(255, 255, 255); 
     text-shadow: 0 0 150px rgba(0, 0, 0, 0.998);
     z-index: 2;
-    pointer-events: none; /* Falls keine Interaktion gewünscht */
 }
 
 .fxb-x{
@@ -258,7 +268,7 @@ p{
 }
 
 button{
-    background-color:black;
+    background-color:rgb(104, 104, 104);
     color:white;
     border:none;
     border-radius:20px;
