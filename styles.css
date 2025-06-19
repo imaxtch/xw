@@ -129,42 +129,20 @@ body > * {
 }
 
 
-.fxb-text-overlay-h {
+.overlay{
+  height:auto;
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+  color:white;
   text-align:left;
-    position: absolute;
-    bottom: 125px;
-    left: 50px;
-    margin-bottom:5px;
-    /*transform: translate(-50%, -50%);*/
-    color: rgb(255, 255, 255); 
-    font-size: 1.5em;
-    font-weight: bold;
-    text-shadow: 0 0 150px rgba(0, 0, 0, 0.998);
-    z-index: 3;
-    pointer-events: none; /* Falls keine Interaktion gewünscht */
+  position: absolute;
+  bottom: 40px;
+  left: 42px;
+  z-index: 3; 
 }
 
-.fxb-text-overlay {
-  text-align:left;
-    position: absolute;
-    bottom: 100px;
-    left: 42px;
-    /*transform: translate(-50%, -50%);*/
-    color: rgb(255, 255, 255); 
-    text-shadow: 0 0 150px rgba(0, 0, 0, 0.998);
-    z-index: 3;
-    pointer-events: none; /* Falls keine Interaktion gewünscht */
-}
-
-.btn-img{
-    position: absolute;
-    bottom: 40px;
-    left: 35px;
-    /*transform: translate(-50%, -50%);*/
-    color: rgb(255, 255, 255); 
-    text-shadow: 0 0 150px rgba(0, 0, 0, 0.998);
-    z-index: 2;
-}
 
 .fxb-x{
     display: flex;
@@ -268,7 +246,7 @@ p{
 }
 
 button{
-    background-color:rgb(104, 104, 104);
+    background-color:rgb(30, 75, 255);
     color:white;
     border:none;
     border-radius:20px;
@@ -279,6 +257,6 @@ button{
 }
 
 button:hover{
-    background-color:rgb(30, 75, 255);
+    background-color:rgb(12, 41, 159);
     box-shadow: 0px 5px 0px 0 rgb(0, 0, 0), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
