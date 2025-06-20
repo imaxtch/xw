@@ -229,12 +229,20 @@ body > * {
   .main{
     width:80%;
   }
+  .overlay{
+    top:50%;
+    bottom:50%;
+  }
 }
 
 @media (max-width:700px) {
   /* Für eher hochformatige oder quadratische Screens */
   .main{
     width:80%;
+  }
+  .overlay{
+    top:50%;
+    bottom:50%;
   }
 }
 
