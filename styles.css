@@ -77,9 +77,10 @@ body > * {
     justify-content: center;
     align-items: center;
     overflow: hidden;
-    background: rgba(186,186,186,0.25);
+    /*background: rgba(186,186,186,0.25);*/
+    background-color:white;
     border-radius:33px;
-    border:1px solid #B8B8B8;
+    /*border:1px solid #B8B8B8;*/
     padding:2rem;
     /* margin:.5em; */
     width:40%;
@@ -93,9 +94,10 @@ body > * {
     justify-content: center;
     align-items: center;
     overflow: hidden;
-    background: rgba(186,186,186,0.25);
+    /*background: rgba(186,186,186,0.25);*/
+    background-color:white;
+    /*border:1px solid #B8B8B8;*/
     border-radius:33px;
-    border:1px solid #B8B8B8;
     padding:2rem;
     /* margin:.5em; */
     width: 30%;
@@ -109,9 +111,10 @@ body > * {
     justify-content: left;
     align-items: center;
     overflow: hidden;
-    background: rgba(186,186,186,0.25);
+    /*background: rgba(186,186,186,0.25);*/
+    background-color:white;
+    /*border:1px solid #B8B8B8;*/
     border-radius:33px;
-    border:1px solid #B8B8B8;
     /* margin:.5em; */
     width:100%;
     min-width:100%;
@@ -151,9 +154,10 @@ body > * {
     justify-content: center;
     align-items: center;
     overflow: hidden;
-    background: rgba(186,186,186,0.25);
+    /*background: rgba(186,186,186,0.25);*/
+    background-color:white;
+    /*border:1px solid #B8B8B8;*/
     border-radius:33px;
-    border:1px solid #B8B8B8;
     padding:2rem;
     /* margin:.5em; */
     width: 100%;
