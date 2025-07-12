@@ -7,7 +7,7 @@ body{
     align-items:center;
     /*background-color: #F2F0EF;*/
     background-color: rgb(245, 245, 247);
-    color:black;
+    color:rgb(29, 29, 31);
     font-family: "Manrope", sans-serif;
     letter-spacing: -3%;
     font-weight: 600;
@@ -180,7 +180,7 @@ body > * {
 }
 
 .la{
-    color:black;
+    color:rgb(29, 29, 31);
     margin:5px;
     /*text-decoration-thickness: 2px;*/
     text-decoration:none;
