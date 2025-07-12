@@ -125,7 +125,6 @@ body > * {
 }
 
 .fxb-i img {
-    
     flex: 1;
     min-width: 100%;
     min-height: 100%;
@@ -140,12 +139,13 @@ body > * {
   justify-content: center;
   align-items: left;
   text-align:left;
-  color:white;
+  color:rgb(38, 38, 41);
   text-align:left;
   position: absolute;
-  bottom: 40px;
+  /*bottom: 40px;*/
   left: 42px;
   z-index: 3; 
+
 }
 
 
@@ -193,7 +193,7 @@ body > * {
 }
 
 .hp{
-  font-size:1.5em;
+  font-size:2.3em;
   margin:0px;
 }
 
@@ -248,9 +248,8 @@ width:60%;
   .main{
     width:80%;
   }
-  .overlay{
-    top:50%;
-    bottom:50%;
+  .navbox{
+    width: 80%;
   }
 }
 
@@ -259,9 +258,8 @@ width:60%;
   .main{
     width:80%;
   }
-  .overlay{
-    top:50%;
-    bottom:50%;
+  .navbox{
+    width: 80%;
   }
 }
 
@@ -269,6 +267,9 @@ width:60%;
   /* Für eher breite Screens */
   .main{
     width:40%;
+  }
+  .navbox{
+    width: 40%;
   }
 }
 
