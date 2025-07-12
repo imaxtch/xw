@@ -214,17 +214,29 @@ body > * {
     width: 100%;
     height: 60px;
     z-index: 9999;
-    background-color: rgba(253, 253, 254, 0.7);
+    background-color: rgba(250, 250, 252, 0.8);
     backdrop-filter:blur(50px);
     -webkit-backdrop-filter:blur(50px);
-    border-bottom:1px solid rgb(209, 209, 209);
+    border-bottom:1.5px solid rgb(209, 209, 209);
 }
 .navbox{
+width:60%;
     display:flex;
     flex-direction:row;
     align-items:center;
     justify-content:space-evenly;
     gap:1em
+}
+.navbox-link{
+  width:100%;
+  right:0px;
+  display: flex;
+  flex-direction:row;
+  align-items: right;
+  justify-content:right;
+  width:100%;
+  text-align:right;
+  gap:1em
 }
 .red-p{
     color:red;
