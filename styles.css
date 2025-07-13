@@ -215,8 +215,8 @@ body > * {
     height: 60px;
     z-index: 9999;
     background-color: rgba(250, 250, 252, 0.8);
-    backdrop-filter:blur(50px);
-    -webkit-backdrop-filter:blur(50px);
+    backdrop-filter:blur(15px);
+    -webkit-backdrop-filter:blur(15px);
     border-bottom:1.5px solid rgb(209, 209, 209);
 }
 .navbox{
@@ -275,11 +275,6 @@ width:60%;
     left: 0;
     width: 100%;
     height: 60px;
-    z-index: 9999;
-    background-color: rgba(250, 250, 252, 0.8);
-    backdrop-filter:blur(50px);
-    -webkit-backdrop-filter:blur(50px);
-    border-bottom:1.5px solid rgb(209, 209, 209);
 }
 .navbox{
   width:80%;
