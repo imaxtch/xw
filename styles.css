@@ -20,32 +20,6 @@ p.bold{
     font-weight:900;
 }
 
-/*animation von allen body elementen*/
-/*
-body > * {
-  opacity: 0; 
-  transform: translateY(-100px);
-  animation: fallIn 0.8s ease-out forwards; 
-}
-
-@keyframes fallIn {
-  0% {
-    opacity: 0;
-    transform: translateY(-100px);
-  }
-  80% {
-    transform: translateY(10px);
-    opacity: 1;
-  }
-  100% {
-    transform: translateY(0);
-    opacity: 1; 
-  }
-}
-
-*/
-
-/*animation ende hier*/
 
 .main{
     margin-top:54px;
@@ -319,6 +293,17 @@ p{
     margin:.5em;
 }
 
+.p-foot{ 
+    padding:0;
+    margin:.5em;
+    color:rgb(146, 146, 146);
+}
+
+a{
+  text-decoration:none;
+  color:rgb(30, 75, 255);
+}
+
 button{
     background-color:rgb(30, 75, 255);
     color:white;
@@ -342,4 +327,40 @@ button:hover{
   margin-top:.5em;
 }
 
+
+
+
+
+
+
+.input-f1{
+background-color: white;
+color: black;
+border-radius: 15px;
+border: 3px solid black;
+height: 30px;
+font-size: 20px;
+padding: 5px;
+padding-left: 10px;
+padding-right: 10px;
+}
+
+
+.input-f2{
+background-color: white;
+color: black;
+border-radius: 15px;
+border: 3px solid black;
+height: 90px;
+font-size: 20px;
+padding: 5px;
+padding-left: 10px;
+padding-right: 10px;
+margin-left: 20px;
+margin-right: 20px;
+max-height: 300px;
+min-width: 244.15px;
+/*max-width: 60%;
+min-height: 90px;*/
+}
 /*Version 0.5b Beta, Build 120725.2*/
