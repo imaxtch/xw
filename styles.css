@@ -79,6 +79,20 @@ p.bold{
     flex-grow: 1;
 }
 
+.fxb-img {
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background-color:white;
+    border-radius:33px;
+    padding:2rem;
+    width:40%;
+    flex-grow: 1;
+    height:auto;
+    display: block;
+}
+
 .fxb-i{
     position: relative;
     text-align:left;
@@ -104,24 +118,6 @@ p.bold{
     min-height: 100%;
     display: block;
 }
-
-
-.overlay{ /*overlay box for images*/
-  height:auto;
-  display: flex;
-  flex-direction:column;
-  justify-content: center;
-  align-items: left;
-  text-align:left;
-  color:rgb(38, 38, 41);
-  text-align:left;
-  position: absolute;
-  /*bottom: 40px;*/
-  left: 42px;
-  z-index: 3; 
-
-}
-
 
 .fxb-x{
     display: flex;
@@ -151,6 +147,23 @@ p.bold{
     /* margin:.5em; */
     width:40%;
     flex-grow: 1;
+}
+
+
+.overlay{ /*overlay box for images*/
+  height:auto;
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: left;
+  text-align:left;
+  color:rgb(38, 38, 41);
+  text-align:left;
+  position: absolute;
+  /*bottom: 40px;*/
+  left: 42px;
+  z-index: 3; 
+
 }
 
 .la{
