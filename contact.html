@@ -43,7 +43,7 @@
                         <br>
                         <!-- consent checkbox: submit is disabled until this is checked -->
                         <label class="consent-label">
-                            <input type="checkbox" id="consent" name="consent" onchange="document.getElementById('submitBtn').disabled = !this.checked">
+                            <input type="checkbox" id="consent" name="consent" value="yes" required aria-required="true" onchange="document.getElementById('submitBtn').disabled = !this.checked">
                             Ich stimme zu, dass xwstudio mich <br> per E‑Mail kontaktieren und meine <br> E-Mail Adresse speichern darf.
                         </label>
                         <br>
