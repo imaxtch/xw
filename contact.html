@@ -31,19 +31,25 @@
         </div>
 
         <div class="fxb-x">
-        <form action="https://formspree.io/f/xldwygaz" method="POST">
-            <label>
-              <input type="email" placeholder="Deine E-Mail Adresse..." name="email" class="input-f1">
-            </label>
-            <br>
-            <br>
-            <label>
-              <textarea name="message" placeholder="Deine Nachicht an uns..." class="input-f2"></textarea>
-            </label>
-            <br>
-            <!-- your other form fields go here -->
-            <button type="submit">Senden</button>
-            </form>
+                <form action="https://formspree.io/f/xldwygaz" method="POST">
+                        <label>
+                            <input type="email" placeholder="Deine E-Mail Adresse..." name="email" class="input-f1">
+                        </label>
+                        <br>
+                        <br>
+                        <label>
+                            <textarea name="message" placeholder="Deine Nachicht an uns..." class="input-f2"></textarea>
+                        </label>
+                        <br>
+                        <!-- consent checkbox: submit is disabled until this is checked -->
+                        <label class="consent-label">
+                            <input type="checkbox" id="consent" name="consent" onchange="document.getElementById('submitBtn').disabled = !this.checked">
+                            Ich stimme zu, dass xwstudio mich <br> per E‑Mail kontaktieren und meine <br> E-Mail Adresse speichern darf.
+                        </label>
+                        <br>
+                        <!-- your other form fields go here -->
+                        <button type="submit" id="submitBtn" disabled>Senden</button>
+                        </form>
         </div>
         <!--form powered by Fromspree.-->
     </section>
@@ -51,7 +57,7 @@
     <section class="footer">
         <div class="fxb-iv">
             <p class="p-foot">Designed by Max Breitfellner,
-            <br> Version 0.6b Beta, Build 170925.1</p>
+            <br> Version 0.7b Beta, Build 201025.1</p>
             <!--<i class="red-p">PUBLIC BETA VERSION</i>-->
         </div>
     </section>
