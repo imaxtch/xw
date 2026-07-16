@@ -357,7 +357,7 @@ button:hover{
 
 
 .input-f1{
-background-color: white;
+background-color: rgb(242, 240, 239);
 color: black;
 border-radius: 15px;
 border: 3px solid black;
@@ -370,7 +370,7 @@ padding-right: 10px;
 
 
 .input-f2{
-background-color: white;
+background-color: rgb(242, 240, 239);
 color: black;
 border-radius: 15px;
 border: 3px solid black;
@@ -386,4 +386,4 @@ min-width: 244.15px;
 /*max-width: 60%;
 min-height: 90px;*/
 }
-/*Version 0.5b Beta, Build 120725.2*/
+/*Version 0.7b Beta, Build 160726.2*/
