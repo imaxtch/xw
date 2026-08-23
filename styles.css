@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');*/
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR&display=swap');
 
 body{
@@ -56,9 +56,9 @@ p.bold{
     align-items: center;
     overflow: hidden;
     /*background: rgba(186,186,186,0.25);*/
-    background-color:rgba(186, 186, 186, 0.25);
+    background-color:rgba(186, 186, 186, 0);
     border-radius:15px;
-    border:1px solid #B8B8B8;
+    border:1px solid rgb(209, 209, 209);
     padding:2rem;
     /* margin:.5em; */
     width:40%;
@@ -75,8 +75,8 @@ p.bold{
     align-items: center;
     overflow: hidden;
     /*background: rgba(186,186,186,0.25);*/
-    background-color:rgba(186, 186, 186, 0.25);
-    border:1px solid #B8B8B8;
+    background-color:rgba(186, 186, 186, 0);
+    border:1px solid rgb(209, 209, 209);
     border-radius:15px;
     padding:2rem;
     /* margin:.5em; */
@@ -91,8 +91,8 @@ p.bold{
     justify-content: center;
     align-items: center;
     overflow: hidden;
-    background-color:rgba(186, 186, 186, 0.25);
-    border:1px solid #B8B8B8;
+    background-color:rgba(186, 186, 186, 0);
+    border:1px solid rgb(209, 209, 209);
     border-radius:15px;
     padding:2rem;
     width:40%;
@@ -135,8 +135,8 @@ p.bold{
     align-items: center;
     overflow: hidden;
     /*background: rgba(186,186,186,0.25);*/
-    background-color:rgba(186, 186, 186, 0.25);
-    border:1px solid #B8B8B8;
+    background-color:rgba(186, 186, 186, 0);
+    border:1px solid rgb(209, 209, 209);
     border-radius:15px;
     padding:2rem;
     /* margin:.5em; */
@@ -365,7 +365,7 @@ button:hover{
 background-color: rgb(242, 240, 239);
 color: black;
 border-radius: 8px;
-border: 1px solid black;
+border: 1px solid rgb(209, 209, 209);
 height: 30px;
 font-size: 20px;
 padding: 5px;
@@ -378,7 +378,7 @@ padding-right: 10px;
 background-color: rgb(242, 240, 239);
 color: black;
 border-radius: 8px;
-border: 1px solid black;
+border: 1px solid rgb(209, 209, 209);
 height: 90px;
 font-size: 20px;
 padding: 5px;
