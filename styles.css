@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR&display=swap');
 
 body{
     display:flex;
@@ -8,9 +9,11 @@ body{
     /*background-color: #F2F0EF;*/
     background-color: rgb(242, 240, 239);
     color:rgb(29, 29, 31);
-    font-family: "Manrope", sans-serif;
+    /*font-family: "Manrope", sans-serif;*/
+    font-family: "IBM Plex Sans KR", sans-serif;
+    font-weight: 300;
+    font-style: light;
     letter-spacing: -3%;
-    font-weight: 600;
     /*margin-right: 30em;
     margin-left:30em;*/
     text-align:center;
@@ -309,6 +312,8 @@ h1{
     margin:0;
     margin-bottom:5px;
     padding:0;
+    font-weight: 400;
+    font-style: normal;
 }
 
 p{
@@ -324,11 +329,11 @@ p{
 
 a{
   text-decoration:none;
-  color:rgb(30, 75, 255);
+  color:rgb(255, 120, 30);
 }
 
 button{
-    background-color:rgb(30, 75, 255);
+    background-color:rgb(255, 120, 30);
     color:white;
     border:none;
     border-radius:20px;
@@ -360,7 +365,7 @@ button:hover{
 background-color: rgb(242, 240, 239);
 color: black;
 border-radius: 15px;
-border: 3px solid black;
+border: 1px solid black;
 height: 30px;
 font-size: 20px;
 padding: 5px;
@@ -373,7 +378,7 @@ padding-right: 10px;
 background-color: rgb(242, 240, 239);
 color: black;
 border-radius: 15px;
-border: 3px solid black;
+border: 1px solid black;
 height: 90px;
 font-size: 20px;
 padding: 5px;
