@@ -329,11 +329,11 @@ p{
 
 a{
   text-decoration:none;
-  color:rgb(255, 120, 30);
+  color:rgb(255, 90, 0);
 }
 
 button{
-    background-color:rgb(255, 120, 30);
+    background-color:rgb(255, 90, 0);
     color:white;
     border:none;
     border-radius:13px;
