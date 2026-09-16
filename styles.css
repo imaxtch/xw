@@ -10,12 +10,11 @@ body{
     /*background-color: #F2F0EF;*/
     background-color: #ffffff;
     color:rgb(29, 29, 31);
-    /*font-family: "Manrope", sans-serif;*/
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
-    letter-spacing: -3%;
+    letter-spacing: -1%;
     /*margin-right: 30em;
     margin-left:30em;*/
     text-align:center;
@@ -27,7 +26,6 @@ p.bold{
 
 
 .main{
-    margin-top:54px;
     padding-top:2em;
     padding-bottom:2em;
     display:flex;
@@ -46,9 +44,11 @@ p.bold{
     flex-wrap: wrap;
     gap:2em;
     justify-content:space-evenly;
-    /*background-color: #F2F0EF;*/
+    /*background-color: #F3F3f6;*/
     align-items:center;
     width:60%;
+    border-top: 1.5px solid rgb(209, 209, 209);
+    font-size: 10px;
 }
 
 .fxb{
@@ -204,19 +204,23 @@ p.bold{
     flex-direction:row;
     align-items:center;
     justify-content:space-evenly;
-    position: fixed;
+   /* position: fixed;*/
+   margin-left: 2em;
+   margin-right: 2em;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 60%;
     height: 60px;
     z-index: 9999;
     background-color: #ffffff;
     backdrop-filter:blur(15px);
     -webkit-backdrop-filter:blur(15px);
     border-bottom:1.5px solid rgb(209, 209, 209);
+    
 }
 .navbox{
-width:60%;
+  /*width: 60%;*/
+    width:100%;
     display:flex;
     flex-direction:row;
     align-items:center;
