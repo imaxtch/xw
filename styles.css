@@ -1,6 +1,6 @@
-/*@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR&display=swap');*/
+/*@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');*/
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
 
 body{
     display:flex;
@@ -10,9 +10,10 @@ body{
     /*background-color: #F2F0EF;*/
     background-color: #ffffff;
     color:rgb(29, 29, 31);
-    font-family: "Inter", sans-serif;
+    /*font-family: "Inter", sans-serif;*/
+    font-family: "Lora", serif;
     font-optical-sizing: auto;
-    font-weight: 400;
+    font-weight: 450;
     font-style: normal;
     letter-spacing: -1%;
     /*margin-right: 30em;
@@ -199,6 +200,11 @@ p.bold{
 }
 
 .navbar{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+
     /*border:1px solid red;/*only for testing*/
     display:flex;
     flex-direction:row;
@@ -391,4 +397,4 @@ min-width: 244.15px;
 /*max-width: 60%;
 min-height: 90px;*/
 }
-/*Version 0.7b Beta, Build 160726.2*/
+/*Version 0.8b Beta, Build 230926.*/
